@@ -1,0 +1,35 @@
+PATH
+  remote: ../rack_plus-app
+  specs:
+    rack_plus-app (0.1.0)
+
+PATH
+  remote: ../rack_plus-controller
+  specs:
+    rack_plus-controller (0.1.0)
+
+PATH
+  remote: ../rack_plus-router
+  specs:
+    rack_plus-router (0.1.0)
+
+PATH
+  remote: .
+  specs:
+    rack_plus (0.1.0)
+      rack_plus-app
+      rack_plus-controller
+      rack_plus-router
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  rack_plus!
+  rack_plus-app!
+  rack_plus-controller!
+  rack_plus-router!
