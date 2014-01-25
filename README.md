@@ -17,13 +17,18 @@ Below is a listing of the components composing the Rack+ framework. Any one of
 these components may be replaced by an equivalent component which follows the
 specification for the component it is replacing.
 
-  * Rack+ App
-  * Rack+ Router
-  * Rack+ Controller
+  * [Rack+ App][rack-plus/rack_plus-app]
+  * [Rack+ Router][rack-plus/rack_plus-router]
+  * [Rack+ Controller][rack-plus/rack_plus-controller]
 
 
 Rack+ Applications
 ------------------
 Developing a Rack+ Application basically involves taking the individual
 components and piecing them together. For a simple example of how to do this,
-see the Rack+ Example repository.
+see the [Rack+ Example][rack-plus/rack_plus_example] repository.
+
+  [rack-plus/rack_plus-app]:        https://github.com/rack-plus/rack_plus-app
+  [rack-plus/rack_plus-router]:     https://github.com/rack-plus/rack_plus-router
+  [rack-plus/rack_plus-controller]: https://github.com/rack-plus/rack_plus-controller
+  [rack-plus/rack_plus_example]:    https://github.com/rack-plus/rack_plus_example
